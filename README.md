@@ -71,6 +71,3 @@ The settings UI triggers the updater via Terminal using `/usr/bin/open -na Termi
 - **Terminal says “killed”** – ensure the binary is copied during build and is code-signed. The Run Script phase handles this automatically.
 - **Need to rebuild** – whenever you change SwiftUpdater’s code, repeat the build command. The next app build will package the new binary.
 
-## License
-
-SwiftUpdater follows the same license as the LaunchNext project.
